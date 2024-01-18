@@ -13,18 +13,12 @@ body{
 }
 
 
-.icon--image{
-  width: 24px;
-  height: 24px;
-  flex-shrink: 0;
-  padding: 10px;
-}
-
 .icon--title{
   color: white;
   font-family: Inter;
   font-size: 14.461px;
   font-weight: 500;
+  margin-left: 10px;
 }
 
 
@@ -36,7 +30,7 @@ body{
   padding: 20px;
   font-family: Inter;
   color: #2B283A;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 
 }
 

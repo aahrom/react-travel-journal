@@ -1,10 +1,10 @@
 import React from "react"
-import icon from "../assets/icon.png"
+import {GlobeIcon} from "../Icons"
 
 export default function Navbar(){
     return(
         <nav className="navbar">
-            <img className="icon--image" src={icon} alt="website icon"></img>
+            <GlobeIcon />
             <h1 className="icon--title">my travel journal.</h1>
         </nav>
     )
