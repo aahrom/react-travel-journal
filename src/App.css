@@ -58,11 +58,25 @@ body{
   letter-spacing: 1.741px;
 }
 
+p {
+  margin-left: 5px;
+}
+
+.card--location--link{
+  font-size: 10.24px;
+  text-decoration: underl;
+  color: #918E9B;
+}
+
 .card--location span{
+  display: flex;
+  align-items: center;
   font-weight: 400;
   letter-spacing: 1.741px;
   margin-right: 12px;
+
 }
+
 
 .card--title{
   font-size: 25px;
@@ -83,6 +97,6 @@ body{
 /**Card List**/
 .card-list{
   margin: auto;
-  width: 700px;
+  width: 500px;
   padding-top: 50px;
 }

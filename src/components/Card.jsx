@@ -1,5 +1,5 @@
 import React from "react"
-import Mount_Fuji from "../assets/Mount_Fuji.jpeg"
+import {PositionIcon} from "../Icons"
 
 export default function Card(props){
     console.log(props);
@@ -10,9 +10,9 @@ export default function Card(props){
             <div className="card--content">
                 <div className="card--location">
                 <span>
-                    <p>{props.item.location}</p>
+                    <PositionIcon /><p>{props.item.location}</p>
                 </span>
-                <a href={props.item.googleMapsUrl}>View on Google Maps</a>
+                <a className="card--location--link" href={props.item.googleMapsUrl}>View on Google Maps</a>
                 </div>
                 <h1 className="card--title">{props.item.title}</h1>
                 <p className="card--date">{props.item.startDate} - {props.item.endDate}</p>
